@@ -1,0 +1,136 @@
+*{ 
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #170303; 
+    font-family: sans-serif; 
+    text-align: center;  
+    margin: 0;
+}  
+
+
+.topnav { 
+    overflow:hidden; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #bcd288; 
+    padding: 0px;  
+    
+} 
+
+.timer{ 
+    display:flex;  
+    flex-direction:column; 
+    align-items: center; 
+    justify-content:center;  
+    margin-top: 20px;
+    color:#dd7979;  
+    padding: 1px 250px; 
+    font-size: 1.2rem; 
+    text-transform: uppercase;  
+}     
+
+input[type="time"] {
+    font-size: 1.2rem; 
+    text-align: center; 
+    padding: 10px 10px;
+    margin: 10px auto; 
+    display: block;
+} 
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #58a45a;
+    color: white;
+    border: none;
+    border-radius: 9999px;  
+    cursor: pointer; 
+    
+}   
+
+button:hover {
+    background-color: #6ff112; 
+} 
+
+button:active {
+    transform: scale(.90); 
+}
+
+.timer1{ 
+    display:flex;  
+    flex-direction:column; 
+    align-items: center; 
+    justify-content:center;  
+    margin-top: -50px;
+    color:#fffb00;  
+    padding: 1px 250px; 
+    font-size: 10.0rem; 
+    text-transform: uppercase; 
+    font-family: Brush Script MT; 
+    text-shadow: 2px 2px 5px black; 
+    white-space: nowrap; 
+    overflow: hidden;
+} 
+
+.timer2 {
+    color: #f7f7f7;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+#alarm-history li {
+    cursor: pointer;
+    background-color: #b6ce1b;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    list-style: none;
+    transition: background 0.2s;
+}
+
+#alarm-history li:hover {
+    background-color: #75db50;
+}
+
+/** 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container {
+    background-color: white;
+    display: inline-block;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+input[type="time"] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+

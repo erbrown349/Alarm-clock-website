@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <title>AlarmClock</title>
+    <link rel="stylesheet" href="style.css">
+
+</head> 
+
+<body> 
+    <div class="topnav">
+    <h1>AlarmClock! Start Now!</h1> 
+    </div>
+    <div class ="timer"> 
+        <input type="time" id="AlarmClock"> 
+        <button onclick="setAlarm()">Set Alarm</button>
+        <p id = "status"></p>
+
+    </div>  
+    <div class = "timer1">
+        <p id="current-time"></p>
+    </div> 
+
+    <div class = "timer2"> 
+      <h3>Previous attempts</h3> 
+      <ul id = "alarm-history"></ul>
+    </div>
+
+    <script src="script.js"></script> 
+
+</body>
+</html> 
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container"> 
+    <h1>Alarm Clock</h1>
+    <input type="time" id="alarmTime" />
+    <button onclick="setAlarm()">Set Alarm</button>
+    <p id="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
+-->
