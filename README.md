@@ -2,7 +2,7 @@
 
 This FullStack Website allows you to see your current time within the area, and set an alarm, which plays a sound when setoff. In addition to this, the website saves previous alarm times you have used across multiple devices to the MongoDB Database. Even when the server is off, it temporary saves the last attempts used using the Frontend Coding.   
 
-# View Website --->
+# View Website ---> https://erbrown349.github.io/Alarm-clock-website/
 
 # How to Run the Server Locally and Save Previous AlarmClock Times to Database Below
 # Clone the Repository 
